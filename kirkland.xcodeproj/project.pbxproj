@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD6EB580288085D900F0F09F /* secondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EB57F288085D900F0F09F /* secondScreen.swift */; };
 		BDC3917A287F49A200446F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC39179287F49A200446F6A /* AppDelegate.swift */; };
 		BDC3917C287F49A200446F6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3917B287F49A200446F6A /* SceneDelegate.swift */; };
 		BDC3917E287F49A200446F6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3917D287F49A200446F6A /* ViewController.swift */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD6EB57F288085D900F0F09F /* secondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondScreen.swift; sourceTree = "<group>"; };
 		BDC39176287F49A200446F6A /* kirkland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kirkland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC39179287F49A200446F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC3917B287F49A200446F6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDC3917D287F49A200446F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDC3917D287F49A200446F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		BDC39180287F49A200446F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDC39183287F49A200446F6A /* kirkland.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kirkland.xcdatamodel; sourceTree = "<group>"; };
 		BDC39185287F49A300446F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				BDC39179287F49A200446F6A /* AppDelegate.swift */,
 				BDC3917B287F49A200446F6A /* SceneDelegate.swift */,
 				BDC3917D287F49A200446F6A /* ViewController.swift */,
+				BD6EB57F288085D900F0F09F /* secondScreen.swift */,
 				BDC3917F287F49A200446F6A /* Main.storyboard */,
 				BDC39185287F49A300446F6A /* Assets.xcassets */,
 				BDC39187287F49A300446F6A /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				BDC39184287F49A200446F6A /* kirkland.xcdatamodeld in Sources */,
 				BDC3917A287F49A200446F6A /* AppDelegate.swift in Sources */,
 				BDC3917C287F49A200446F6A /* SceneDelegate.swift in Sources */,
+				BD6EB580288085D900F0F09F /* secondScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = kirkland/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = kirkland/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
